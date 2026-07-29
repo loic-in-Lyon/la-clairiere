@@ -1,3 +1,14 @@
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+}
+.logo{
+    path{
+        fill: #7F9F8E;
+    }
+}
 /* HEADER */
 
 .header{
@@ -17,7 +28,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:18px 0;
+    padding:18px;
 }
 
 
@@ -867,9 +878,10 @@ body{
     grid-template-columns:1fr 420px;
     align-items:center;
  
-    background:#7f9f8e1a;
+    background:#7f9f8e61;
     border-radius:24px;
     overflow:hidden;
+    
 }
  
 .opening-text{
@@ -887,8 +899,9 @@ body{
 .opening-text p{
     color:#666;
     line-height:1.8;
-    max-width:420px;
+    max-width:525px;
     margin-bottom:30px;
+    font-size: 20px;
 }
  
 .btn-opening{
@@ -3529,27 +3542,7 @@ body{
     transform:rotate(-20deg);
 
 }
-@media(max-width:992px){
 
-.drainage-cta{
-
-    padding:90px 0;
-
-}
-
-.drainage-cta h2{
-
-    font-size:46px;
-
-}
-
-.drainage-cta p{
-
-    font-size:17px;
-
-}
-
-}
 
 
 
