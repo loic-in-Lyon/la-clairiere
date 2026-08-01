@@ -648,7 +648,7 @@ body{
     width:58px;
     height:58px;
     border-radius:50%;
-    background:#8ca182;
+    background:#7F9F8E;
     color:#fff;
     display:flex;
     justify-content:center;
@@ -821,7 +821,7 @@ body{
     text-align:center;
 }
  
-.icon{
+/* .icon{
     width:70px;
     height:70px;
     margin:0 auto 20px;
@@ -835,7 +835,7 @@ body{
  
     color: rgb(246, 243, 243);
     font-size:28px;
-}
+} */
  
 .feature h3{
     font-family:"Cormorant Garamond",serif;
@@ -1081,7 +1081,7 @@ body{
         transparent
     );
 
-    animation:shine 4s infinite;
+    /* animation:shine 4s infinite; */
 
 }
 
@@ -4611,6 +4611,145 @@ body{
         flex-direction:column;
 
         align-items:center;
+
+    }
+
+}
+/*=====================================
+        HERO MENTIONS LEGALES
+======================================*/
+
+.legal-hero{
+
+    padding:180px 20px 120px;
+
+    background:#FCFBF8;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.legal-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.legal-hero h1{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:72px;
+
+    color:#28463C;
+
+    margin:20px 0;
+
+    line-height:1.1;
+
+}
+
+.legal-hero h1 span{
+
+    color:#7F9F8E;
+
+}
+
+.legal-hero p{
+
+    max-width:650px;
+
+    margin:35px auto 0;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+/* Halo */
+
+.legal-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:550px;
+
+    height:550px;
+
+    background:#7F9F8E;
+
+    border-radius:50%;
+
+    filter:blur(120px);
+
+    opacity:.08;
+
+    top:-220px;
+
+    right:-180px;
+
+    animation:haloMove 10s ease-in-out infinite;
+
+}
+
+/* Feuille décorative */
+
+.legal-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    background:url("assets/leaf.png") no-repeat center;
+
+    background-size:contain;
+
+    opacity:.05;
+
+    bottom:-70px;
+
+    left:-70px;
+
+    transform:rotate(-20deg);
+
+}
+
+@media(max-width:768px){
+
+    .legal-hero{
+
+        padding:140px 20px 80px;
+
+    }
+
+    .legal-hero h1{
+
+        font-size:48px;
+
+    }
+
+    .legal-hero p{
+
+        font-size:16px;
 
     }
 
