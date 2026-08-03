@@ -133,9 +133,7 @@ body{
 .hero{
 
     max-width:1300px;
-
-    margin:140px auto 100px;
-
+    margin: 112px auto 100px;
     display:grid;
     grid-template-columns:1fr 1fr;
 
@@ -143,12 +141,12 @@ body{
 
     gap:70px;
 
-    padding:0 40px;
 }
 
 .hero-content{
 
     max-width:540px;
+    padding: 140px 24px;
 }
 
 .hero-subtitle{
@@ -2605,6 +2603,10 @@ body{
     background:#FCFBF8;
 
 }
+.service-detail-image img{
+    border-radius: 35px;
+
+}
 
 .service-detail-container{
 
@@ -2702,12 +2704,12 @@ body{
 .service-detail-image{
 
     order:-1;
-
 }
 
 .service-detail-image img{
 
     height:420px;
+    
 
 }
 
@@ -4648,6 +4650,7 @@ body{
 .legal-hero h1{
 
     font-family:"Cormorant Garamond", serif;
+    text-align: center;
 
     font-size:72px;
 
@@ -4672,6 +4675,7 @@ body{
     margin:35px auto 0;
 
     font-size:18px;
+    text-align: center;
 
     line-height:1.9;
 
