@@ -120,18 +120,34 @@
 
             <h2>Envoyez un message</h2>
 
-            <form>
+            <form action="https://formsubmit.co/laclairierebienetre@gmail.com" method="POST">
+
+                <!-- Configuration FormSubmit -->
+                <input type="hidden" name="_subject" value="Nouveau message - Site La Clairière">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="_honey" style="display:none">
 
                 <div class="form-row">
 
                     <div class="input-group">
-                        <label>Nom</label>
-                        <input type="text" placeholder="Votre nom">
+                        <label for="nom">Nom</label>
+                        <input
+                            type="text"
+                            id="nom"
+                            name="Nom"
+                            placeholder="Votre nom"
+                            required>
                     </div>
 
                     <div class="input-group">
-                        <label>Prénom</label>
-                        <input type="text" placeholder="Votre prénom">
+                        <label for="prenom">Prénom</label>
+                        <input
+                            type="text"
+                            id="prenom"
+                            name="Prénom"
+                            placeholder="Votre prénom"
+                            required>
                     </div>
 
                 </div>
@@ -139,34 +155,54 @@
                 <div class="form-row">
 
                     <div class="input-group">
-                        <label>Email</label>
-                        <input type="email" placeholder="Votre email">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="Email"
+                            placeholder="Votre email"
+                            required>
                     </div>
 
                     <div class="input-group">
-                        <label>Téléphone</label>
-                        <input type="tel" placeholder="Votre téléphone">
+                        <label for="telephone">Téléphone</label>
+                        <input
+                            type="tel"
+                            id="telephone"
+                            name="Téléphone"
+                            placeholder="Votre téléphone">
                     </div>
 
                 </div>
 
                 <div class="input-group">
 
-                    <label>Sujet</label>
+                    <label for="sujet">Sujet</label>
 
-                    <input type="text" placeholder="Objet du message">
+                    <input
+                        type="text"
+                        id="sujet"
+                        name="Sujet"
+                        placeholder="Objet du message"
+                        required>
 
                 </div>
 
                 <div class="input-group">
 
-                    <label>Message</label>
+                    <label for="message">Message</label>
 
-                    <textarea rows="7" placeholder="Votre message..."></textarea>
+                    <textarea
+                        id="message"
+                        name="Message"
+                        rows="7"
+                        placeholder="Votre message..."
+                        required></textarea>
 
                 </div>
+                
 
-                <button class="contact-btn">
+                <button type="submit" class="contact-btn">
                     Envoyer le message
                 </button>
 
@@ -193,7 +229,7 @@
 
                 <h3>Téléphone</h3>
 
-                <a href="tel:0600000000">
+                <a href="tel:0679791529">
                     06 79 79 15 29
                 </a>
 
@@ -203,7 +239,7 @@
 
                 <h3>Email</h3>
 
-                <a href="mailto:contact@monsite.fr">
+                <a href="mailto:laclairierebienetre@gmail.com">
                     laclairierebienetre@gmail.com
                 </a>
 
