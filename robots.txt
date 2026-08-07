@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://la-clairiere-bien-etre.com/sitemap.xml
